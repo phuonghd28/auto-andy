@@ -18,3 +18,15 @@ img{
     color: #fff!important;
     background: #03c6e9!important;
 }
+/*AboutUS*/
+.pr-3 {
+    padding-right: 30px;
+}
+.theme_shadow {
+    box-shadow: 0 5px 18px rgb(0 0 0 / 18%);
+    padding: 28px;
+}
+.hours-block strong {
+    display: inline-block;
+    width: 110px;
+}
