@@ -1,1 +1,1 @@
-<?php include_once("andy-auto"); ?>
+<?php include_once("/views/index.html"); ?>
