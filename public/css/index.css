@@ -16,6 +16,13 @@ img{
 h1{
     font-family: 'STIX Two Text', serif;
 }
+.logo{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.logo:hover{
+    color: #03c6e9;
+}
 a{
     text-decoration: none!important;
 }
@@ -126,7 +133,7 @@ a:hover{
     height: 400px;
     transition: 0.5s;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img-background:hover{
     opacity: 0.5;
@@ -143,6 +150,15 @@ a:hover{
     left: 0;
     z-index: 5;
     content: '';
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .tab-btn li{
+        padding: 0;
+    }
 }
 
 
