@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'STIX Two Text', serif;
 }
 img{
     object-fit: cover;
