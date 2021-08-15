@@ -171,6 +171,14 @@ a:hover{
     z-index: 5;
     content: '';
 }
+.card-title{
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2em;
+    line-height: 1.8em;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
